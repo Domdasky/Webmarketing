@@ -1523,7 +1523,7 @@ a.btn-purchase:focus {
     position: absolute;
 }
 .clients-list li:hover img.color-img { display: block }
-/*portfolio*/
+/*gallerie*/
 .pf-img img {
     width: 100%;
     border-radius: 1px;
@@ -2198,7 +2198,7 @@ ol.unstyled {
     background: #48cfad;
     color: #fff;
 }
-#portfoliolist-three .portfolio {
+#gallerielist-three .gallerie {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -2209,7 +2209,7 @@ ol.unstyled {
     float: left;
     overflow: hidden;
 }
-#portfoliolist .portfolio {
+#gallerielist .gallerie {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -2220,13 +2220,13 @@ ol.unstyled {
     float: left;
     overflow: hidden;
 }
-.portfolio-wrapper {
+.gallerie-wrapper {
     overflow: hidden;
     position: relative !important;
     background: #666;
     cursor: pointer;
 }
-.portfolio img {
+.gallerie img {
     max-width: 100%;
     position: relative;
 }
@@ -2242,11 +2242,11 @@ span.filter {
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
 @media only screen and (max-width: 767px) {
     .container { width: 95% }
-    #portfoliolist .portfolio {
+    #gallerielist .gallerie {
         width: 97%;
         margin: 2%;
     }
-    #portfoliolist-three .portfolio {
+    #gallerielist-three .gallerie {
         width: 97%;
         margin: 2%;
     }
@@ -2255,11 +2255,11 @@ span.filter {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container { width: 70% }
 }
-.portfolio-hover {
+.gallerie-hover {
     position: relative;
     overflow: hidden;
 }
-.portfolio-hover .icon {
+.gallerie-hover .icon {
     background-color: #000;
     border-radius: 50px;
     -webkit-border-radius: 50px;
